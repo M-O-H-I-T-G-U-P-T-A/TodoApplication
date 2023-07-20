@@ -59,11 +59,11 @@ function App() {
       <Header title="myTodoslist" searchbar={true}/>
       <Router>
         <Routes>
-            <Route path="/" element={<>
+            <Route path="https://M-O-H-I-T-G-U-P-T-A.github.io/TodoApplication/" element={<>
               <AddTodo addTodo ={addTodo}/>
               <Todos todos={todos} onDelete={onDelete}/> 
               </>}/>
-            <Route path='/about' element={<About/>}/>
+            <Route path='https://M-O-H-I-T-G-U-P-T-A.github.io/TodoApplication/about' element={<About/>}/>
         </Routes>
       </Router>
       <Footer/>
