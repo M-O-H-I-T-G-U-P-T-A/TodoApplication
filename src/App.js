@@ -61,11 +61,11 @@ function App() {
       {/* <AddTodo addTodo ={addTodo}/>
       <Todos todos={todos} onDelete={onDelete}/>  */}
         <Routes>
-            <Route path="/" element={<>
+            <Route path="https://m-o-h-i-t-g-u-p-t-a.github.io/TodoApplication/" element={<>
               <AddTodo addTodo ={addTodo}/>
               <Todos todos={todos} onDelete={onDelete}/> 
               </>}/>
-            <Route path='/about' element={<About/>}/>
+            <Route path='https://m-o-h-i-t-g-u-p-t-a.github.io/TodoApplication/about' element={<About/>}/>
         </Routes>
       <Footer/>
       </Router>
