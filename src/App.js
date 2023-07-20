@@ -57,7 +57,9 @@ function App() {
   return (
     <div>
       <Header title="myTodoslist" searchbar={true}/>
-      <Router>
+      <AddTodo addTodo ={addTodo}/>
+      <Todos todos={todos} onDelete={onDelete}/> 
+      {/* <Router>
         <Routes>
             <Route path="https://M-O-H-I-T-G-U-P-T-A.github.io/TodoApplication/" element={<>
               <AddTodo addTodo ={addTodo}/>
@@ -65,7 +67,7 @@ function App() {
               </>}/>
             <Route path='https://M-O-H-I-T-G-U-P-T-A.github.io/TodoApplication/about' element={<About/>}/>
         </Routes>
-      </Router>
+      </Router> */}
       <Footer/>
     </div>
   );
