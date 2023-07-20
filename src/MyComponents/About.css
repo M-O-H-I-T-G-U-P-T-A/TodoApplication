@@ -1,0 +1,51 @@
+/* src/About.css */
+
+/* Styles for the About page container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles for the header on the About page */
+  .container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the paragraphs on the About page */
+  .container p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Styles for the navigation bar */
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
