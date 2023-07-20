@@ -11,10 +11,10 @@ const Header = (props) => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                      <a className="nav-link active" aria-current="page" href="https://M-O-H-I-T-G-U-P-T-A.github.io/TodoApplication/">Home</a>
+                      <a className="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="https://M-O-H-I-T-G-U-P-T-A.github.io/TodoApplication/about">About</a>
+                      <a className="nav-link" href="/about">About</a>
                     </li>
                   </ul>
                   { props.searchbar? <form className="d-flex" role="search">

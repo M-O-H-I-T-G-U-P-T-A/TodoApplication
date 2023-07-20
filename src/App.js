@@ -56,19 +56,19 @@ function App() {
 
   return (
     <div>
+      <Router>
       <Header title="myTodoslist" searchbar={true}/>
-      <AddTodo addTodo ={addTodo}/>
-      <Todos todos={todos} onDelete={onDelete}/> 
-      {/* <Router>
+      {/* <AddTodo addTodo ={addTodo}/>
+      <Todos todos={todos} onDelete={onDelete}/>  */}
         <Routes>
-            <Route path="https://M-O-H-I-T-G-U-P-T-A.github.io/TodoApplication/" element={<>
+            <Route path="/" element={<>
               <AddTodo addTodo ={addTodo}/>
               <Todos todos={todos} onDelete={onDelete}/> 
               </>}/>
-            <Route path='https://M-O-H-I-T-G-U-P-T-A.github.io/TodoApplication/about' element={<About/>}/>
+            <Route path='/about' element={<About/>}/>
         </Routes>
-      </Router> */}
       <Footer/>
+      </Router>
     </div>
   );
 }
